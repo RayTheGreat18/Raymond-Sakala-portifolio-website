@@ -1,6 +1,10 @@
 /* Add your CSS styles here */
 
 /* Example styles for the hero section */
+body {
+    text-align: center;
+}
+
 #nav-children {
     display: flex;
     justify-content: space-between;
@@ -9,6 +13,15 @@
 
 h1 {
     margin: 10px;
+}
+
+h1,h2 {
+    font-size: 2em;
+}
+
+.lists {
+    color: white;
+    list-style: none;
 }
 
 .hero {
@@ -33,6 +46,27 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    height: 200px;
+    width: 320px;
+    background-color: aqua;
+    border-radius: 6px;
+    margin: 20px;
+    flex-wrap: order;
+}
+
+#dark-light-theme {
+    border-radius: 10px;
 }
 
 /* Add more CSS rules for styling your website as needed. */
