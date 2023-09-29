@@ -1,5 +1,6 @@
 const darkLightTheme = document.getElementById("dark-light-theme")
-// console.log(darkLightTheme)
+const body = document.querySelector(".body")
+
 darkLightTheme.addEventListener("click", ()=>{
-    console.log("button works")
+    body.classList.toggle("dark")
 })

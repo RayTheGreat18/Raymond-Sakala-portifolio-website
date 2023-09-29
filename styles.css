@@ -1,7 +1,4 @@
-/* Add your CSS styles here */
-
-/* Example styles for the hero section */
-body {
+.body {
     text-align: center;
 }
 
@@ -24,6 +21,14 @@ h1,h2 {
     list-style: none;
 }
 
+.blur {
+    text-shadow: -3px -3px 8px black;
+}
+
+p {
+    line-height: 1.5em;
+}
+
 .hero {
     background-image: url('./images/IMG_20220520_151226_570.jpg');
     background-size: cover;
@@ -32,7 +37,7 @@ h1,h2 {
     padding: 100px 0;
 }
 
-/* Example styles for navigation */
+/* Styles for navigation */
 nav {
     background-color: #333;
     color: #fff;
@@ -66,7 +71,26 @@ nav ul li {
 }
 
 #dark-light-theme {
-    border-radius: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: greenyellow;
+    border: none;
 }
 
-/* Add more CSS rules for styling your website as needed. */
+.dark {
+    background: rgb(17, 17, 17);
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Media querriy */
+
+@media screen and (max-width: 480px) {
+    .project-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        justify-items: center;
+        align-items: center;
+    }
+  }
