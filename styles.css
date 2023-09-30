@@ -18,7 +18,7 @@ h1,h2 {
 
 .lists {
     color: white;
-    list-style: none;
+    text-decoration: none;
 }
 
 .blur {
@@ -28,8 +28,6 @@ h1,h2 {
 .section--paragraph {
     max-width: 600px;
     margin: 0 auto;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 p {
@@ -71,10 +69,13 @@ nav ul li {
 .card {
     height: 200px;
     width: 320px;
-    background-color: aqua;
+    background-color: whitesmoke;
+    border: 0.5px solid #333;
     border-radius: 6px;
     margin: 20px;
     flex-wrap: order;
+    text-decoration: none;
+    box-shadow: -6px -6px 6px black;
 }
 
 #dark-light-theme {
@@ -82,6 +83,7 @@ nav ul li {
     padding: 10px;
     background-color: greenyellow;
     border: none;
+    cursor: pointer;
 }
 
 .dark {
