@@ -92,6 +92,11 @@ nav ul li {
     text-align: center;
 }
 
+.greyed {
+    background-color: #333;
+    color: whitesmoke;
+}
+
 /* Media querriy */
 
 @media screen and (max-width: 480px) {
