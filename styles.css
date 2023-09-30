@@ -16,6 +16,11 @@ h1,h2 {
     font-size: 2em;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .lists {
     color: white;
     text-decoration: none;
@@ -97,7 +102,7 @@ nav ul li {
     color: whitesmoke;
 }
 
-/* Media querriy */
+/* Media querries */
 
 @media screen and (max-width: 480px) {
     .project-card {
@@ -106,5 +111,16 @@ nav ul li {
         grid-template-rows: 6fr;
         justify-items: center;
         align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .project-card {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 3fr;
+        justify-items: center;
+        align-items: center;
+        /* background: red; */
     }
   }
