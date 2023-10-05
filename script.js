@@ -18,25 +18,25 @@
 // })
 
 
-const darkLightTheme = document.getElementById("dark-light-theme");
-const card = document.querySelector(".card");
+const darkLightTheme = document.getElementById("dark-light-theme")
+const card = document.querySelector(".card")
 
-        const body = document.body;
+        const body = document.body
 
-        const currentMode = localStorage.getItem('mode');
+        const currentMode = localStorage.getItem('mode')
         if (currentMode) {
-            body.classList.add(currentMode);
+            body.classList.add(currentMode)
         }
 
         function toggleMode() {
             if (body.classList.contains('dark')) {
-                body.classList.remove('dark');
-                localStorage.setItem('mode', 'light-mode');
+                body.classList.remove('dark')
+                localStorage.setItem('mode', 'light-mode')
             } else {
-                body.classList.add('dark');
-                localStorage.setItem("mode", "dark");
+                body.classList.add('dark')
+                localStorage.setItem("mode", "dark")
             }
         }
 
         
-        darkLightTheme.addEventListener('click', toggleMode);
+        darkLightTheme.addEventListener('click', toggleMode)
