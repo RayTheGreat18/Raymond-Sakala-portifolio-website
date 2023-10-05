@@ -98,7 +98,7 @@ p {
 .card {
     height: 12.5rem;
     width: 20rem;
-    background-color: whitesmoke;
+    background-color: gray;
     border: .03125rem solid #333;
     border-radius: .375rem;
     margin: 1.25rem;
