@@ -100,8 +100,8 @@ p {
     width: 20rem;
     background-color: whitesmoke;
     border: .03125rem solid #333;
-    border-radius: 6px;
-    margin: 20px;
+    border-radius: .375rem;
+    margin: 1.25rem;
     flex-wrap: order;
     text-decoration: none;
     box-shadow: -.375rem -.375rem .375rem black;
