@@ -18,7 +18,8 @@
 // })
 
 
-const darkLightTheme = document.getElementById("dark-light-theme")
+const darkLightTheme = document.getElementById("dark-light-theme");
+const card = document.querySelector(".card");
 
         const body = document.body;
 
@@ -33,7 +34,7 @@ const darkLightTheme = document.getElementById("dark-light-theme")
                 localStorage.setItem('mode', 'light-mode');
             } else {
                 body.classList.add('dark');
-                localStorage.setItem('mode', 'dark');
+                localStorage.setItem("mode", "dark");
             }
         }
 
